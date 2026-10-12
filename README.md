@@ -238,3 +238,11 @@ when `o` has a value with something like `123n`.
 `JSONbig` stringify `123n` as `123`, which becomes `number` (aka `123` not `123n`) by default when being reparsed.
 
 There is currently no consistent way to deal with this issue, so we decided to leave it, handling this specific case is then up to users.
+
+## Linting and formatting
+
+ESLint uses the same rules as AOP (`eslint.config.js`).
+
+- In VSCode, install the recommended ESLint extension: saving a file formats it with ESLint.
+- Existing code is not reformatted in bulk. When you change a file, fix its ESLint errors; `npm run fix -- <file>` applies the automatic fixes.
+- `npm run lint -- <file>` checks specific files.
