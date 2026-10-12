@@ -1,0 +1,26 @@
+{
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "never"
+    },
+    "eslint.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.format.enable": true
+}
